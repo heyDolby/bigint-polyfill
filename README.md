@@ -1,10 +1,10 @@
-# BigInt polyfill
+## BigInt polyfill
 
 This is a thin wrapper arround the BigInt class from https://github.com/peterolson/BigInteger.js.
 It has the same methods, plus convenience methods to convert to and from uint8 arrays.
 Internally it uses the native BigInt type if supported by the environment. 
 
-## Usage
+### Usage
 
 ```
 npm install --save bigint-polyfill
